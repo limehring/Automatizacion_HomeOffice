@@ -19,7 +19,7 @@ public class HomeOffice {
         // Iniciar navegador
         WebDriver driver=new EdgeDriver();
 
-        // Abrir Home Banking
+        // Abrir Portal Colaborador
         driver.get("https://portaldelcolaborador.bpn.com.ar/Ausentismo/RegistroAusentismo");
         // Maximizar ventana
         driver.manage().window().maximize();
